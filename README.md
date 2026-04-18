@@ -21,16 +21,19 @@ Agents are assigned a residency status:
 
 To allow limited mobility, inland agents have a one-time probabilistic chance to transition into coastal status.
 
-### File Structure
+## File Structure
+
+```text
 .
 ├── agents.py              # Defines agent behavior and decision rules
 ├── model.py               # Core Sugarscape model with modifications
 ├── app.py                 # Solara visualization interface
 ├── make_map.py            # Script to generate spatial sugar distribution
 ├── sugar-map-coastal.txt  # Pre-generated resource map
-├── README.md
+└── README.md
+```
 
 ## Statement of External Tools and Resources
 
-This project was primarily completed using course materials. Additional support came from online forums (e.g., Stack Overflow) and AI tools (e.g., ChatGPT) for debugging and improving code clarity. All model design and implementation were completed independently.
+This project was primarily completed using course materials. AI tools (e.g., ChatGPT) were used for limited technical support, including debugging, generating the spatial sugar map, and correcting issues related to map visualization orientation.
 
