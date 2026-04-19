@@ -9,17 +9,12 @@ This project extends the classic Sugarscape model by introducing a spatial and i
 Two main changes are introduced:
 
 ### Spatial Resource Gradient
-Resources are unevenly distributed across the grid:
-- Higher sugar levels at the edges (coastal regions)
-- Lower sugar levels toward the center (inland regions)
-- A smooth gradient with noise creates more realistic variation
+Resources are distributed unevenly across the grid, creating a structured environmental inequality. Sugar levels are highest in coastal regions and gradually decrease toward inland areas. This spatial gradient is designed to mimic real-world geographic disparities in resource availability.s
 
 ### Residency Restriction
-Agents are assigned a residency status:
-- Coastal agents can move freely
-- Inland agents cannot enter coastal regions
+Agents are assigned a residency status that constrains their mobility. Coastal agents can move freely across the grid, while inland agents are restricted from entering coastal regions.
 
-To allow limited mobility, inland agents have a one-time probabilistic chance to transition into coastal status.
+To incorporate a limited pathway for upward mobility, inland agents are allowed a probabilistic transition to coastal status once they accumulate sufficient wealth. This mechanism captures the possibility of status change while preserving structural constraints.
 
 ## File Structure
 
